@@ -13,7 +13,7 @@ public class SwiftCursesTerm {
     public init() {
         curses.setlocale(LC_CTYPE, "en_US.UTF-8");
         curses.newterm(nil, stderr, stdin)
-        curses.use_default_colors()
+//        curses.use_default_colors()
         curses.start_color()
     }
 
